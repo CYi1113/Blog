@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/Blog',
+    base: '/Blog/',
     plugins: [
         [
             "@vuepress-reco/vuepress-plugin-bgm-player",
@@ -97,7 +97,7 @@ module.exports = {
       // 备案号
       // record: '鄂ICP备20008479号',
       // 项目开始时间
-      startYear: '2019',
+      startYear: '2019'
       /**
        * 密钥 (if your blog is private)
        */
