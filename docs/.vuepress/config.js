@@ -1,5 +1,4 @@
 module.exports = {
-    base: '/Blog/',
     plugins: [
         [
             "@vuepress-reco/vuepress-plugin-bgm-player",
@@ -30,6 +29,7 @@ module.exports = {
       ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
     ],
     theme: 'reco',
+    base: '/Blog/',
     themeConfig: {
       nav: [
         { text: 'Home', link: '/', icon: 'reco-home' },
@@ -82,7 +82,7 @@ module.exports = {
           link: 'https://vuepress-theme-reco.recoluan.com'
         },
       ],
-      logo: '/logo.png',
+      logo: '/Blog/logo.png',
       // 搜索设置
       search: true,
       searchMaxSuggestions: 10,
@@ -93,7 +93,7 @@ module.exports = {
       // 作者
       author: 'cyi1113',
       // 作者头像
-      authorAvatar: '/avatar.jpeg',
+      authorAvatar: '/Blog/avatar.jpeg',
       // 备案号
       // record: '鄂ICP备20008479号',
       // 项目开始时间
