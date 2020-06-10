@@ -26,7 +26,7 @@ git push -f $githubUrl master:gh-pages # 推送到github
 #    codingUrl=git@github.com:CYi1113/Blog.git
 # else
 #    codingUrl=https://VzpWUthwxq:${CODING_TOKEN}@e.coding.net/zerodegree/zerodegree.git #注意！！！这里需要使用coding提供的个人令牌的用户名和token
- fi
+ # fi
 git add -A
 git commit -m "${msg}"
 git push -f $codingUrl master # 推送到coding
