@@ -61,7 +61,7 @@ module.exports = {
     //       'other'
     //     ]
     //   },  
-      type: 'Blog',
+      type: 'blog',
       // 博客设置
       blogConfig: {
         category: {
