@@ -1,28 +1,28 @@
 module.exports = {
-    // plugins: [
-    //     [
-    //         "@vuepress-reco/vuepress-plugin-bgm-player",
-    //         {
-    //             audios: [
-    //                 // 网络文件示例
-    //                 {
-    //                   name: '강남역 4번 출구',
-    //                   artist: 'Plastic / Fallin` Dild',
-    //                   url: 'https://assets.smallsunnyfox.com/music/2.mp3',
-    //                   cover: 'https://assets.smallsunnyfox.com/music/2.jpg'
-    //                 },
-    //                 {
-    //                   name: '用胳膊当枕头',
-    //                   artist: '최낙타',
-    //                   url: 'https://assets.smallsunnyfox.com/music/3.mp3',
-    //                   cover: 'https://assets.smallsunnyfox.com/music/3.jpg'
-    //                 }
-    //               ]
-    //           }
-    //     ]
-    // ],
+    plugins: [
+        [
+            "@vuepress-reco/vuepress-plugin-bgm-player",
+            {
+                audios: [
+                    // 网络文件示例
+                    {
+                      name: '강남역 4번 출구',
+                      artist: 'Plastic / Fallin` Dild',
+                      url: 'https://assets.smallsunnyfox.com/music/2.mp3',
+                      cover: 'https://assets.smallsunnyfox.com/music/2.jpg'
+                    },
+                    {
+                      name: '用胳膊当枕头',
+                      artist: '최낙타',
+                      url: 'https://assets.smallsunnyfox.com/music/3.mp3',
+                      cover: 'https://assets.smallsunnyfox.com/music/3.jpg'
+                    }
+                  ]
+              }
+        ]
+    ],
     title: "cyi1113",
-    description: "Life may be a self-rescue.",
+    description: 'Life may be a self-rescue.',
     //dest: 'public',
     head: [
       ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -33,17 +33,34 @@ module.exports = {
       nav: [
         { text: 'Home', link: '/', icon: 'reco-home' },
         { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
-        { text: 'Contact', 
+        { text: '资源', 
           icon: 'reco-message',
-          // items: [
-          //   // { text: 'GitHub', link: 'https://github.com/zerocola777', icon: 'reco-github' },
-          //   { text: '联系', link: '/blogs/life/resume.md', icon: 'reco-account' },
-          //   { text: '个人简历', link: '/blogs/life/about.md', icon: 'reco-blog' }
-          // ]
+          link: '/resources/'
         }
+        // { text: 'Contact', 
+        //   icon: 'reco-message',
+        //   // items: [
+        //   //   // { text: 'GitHub', link: 'https://github.com/zerocola777', icon: 'reco-github' },
+        //   //   // { text: '联系', link: '/blogs/life/resume.md', icon: 'reco-account' },
+        //   //   // { text: '个人简历', link: '/blogs/life/about.md', icon: 'reco-blog' }
+        //   // ]
+        // }
       ],
      // sidebarDepth:2,
      sidebar: 'auto',
+    //   sidebar: {
+    //     '/docs/note/': [
+    //       '',
+    //       'docker',  /* /foo/one.html */
+    //       'redis',   /* /foo/two.html */
+    //       'queue',
+    //       'laravel',
+    //       'lnmp',
+    //       'es',
+    //       'js',
+    //       'other'
+    //     ]
+    //   },  
       type: 'blog',
       // 博客设置
       blogConfig: {
@@ -75,7 +92,7 @@ module.exports = {
       // 作者
       author: 'cyi1113',
       // 作者头像
-      authorAvatar: '/avatar.jpeg',
+      authorAvatar: '/avatar.png',
       // 备案号
       // record: '鄂ICP备20008479号',
       // 项目开始时间
