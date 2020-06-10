@@ -61,7 +61,7 @@ module.exports = {
     //       'other'
     //     ]
     //   },  
-      type: 'blog',
+      type: 'Blog',
       // 博客设置
       blogConfig: {
         category: {
@@ -92,7 +92,7 @@ module.exports = {
       // 作者
       author: 'cyi1113',
       // 作者头像
-      authorAvatar: '/avatar.png',
+      authorAvatar: '/avatar.jpeg',
       // 备案号
       // record: '鄂ICP备20008479号',
       // 项目开始时间
