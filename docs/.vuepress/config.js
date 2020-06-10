@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/Blog',
     plugins: [
         [
             "@vuepress-reco/vuepress-plugin-bgm-player",
