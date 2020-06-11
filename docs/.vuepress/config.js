@@ -1,26 +1,4 @@
 module.exports = {
-    plugins: [
-        [
-            "@vuepress-reco/vuepress-plugin-bgm-player",
-            {
-                audios: [
-                    // 网络文件示例
-                    {
-                      name: '강남역 4번 출구',
-                      artist: 'Plastic / Fallin` Dild',
-                      url: 'https://assets.smallsunnyfox.com/music/2.mp3',
-                      cover: 'https://assets.smallsunnyfox.com/music/2.jpg'
-                    },
-                    {
-                      name: '用胳膊当枕头',
-                      artist: '최낙타',
-                      url: 'https://assets.smallsunnyfox.com/music/3.mp3',
-                      cover: 'https://assets.smallsunnyfox.com/music/3.jpg'
-                    }
-                  ]
-              }
-        ]
-    ],
     title: "cyi1113",
     description: 'Life may be a self-rescue.',
     //dest: 'public',
@@ -49,19 +27,6 @@ module.exports = {
       ],
      // sidebarDepth:2,
      sidebar: 'auto',
-    //   sidebar: {
-    //     '/docs/note/': [
-    //       '',
-    //       'docker',  /* /foo/one.html */
-    //       'redis',   /* /foo/two.html */
-    //       'queue',
-    //       'laravel',
-    //       'lnmp',
-    //       'es',
-    //       'js',
-    //       'other'
-    //     ]
-    //   },  
       type: 'blog',
       // 博客设置
       blogConfig: {
@@ -76,13 +41,19 @@ module.exports = {
       },
       friendLink: [
         {
+          title: '午后南杂',
+          desc: 'Enjoy when you can, and endure when you must.',
+          email: 'recoluan@qq.com',
+          link: 'https://www.recoluan.com'
+        },
+        {
           title: 'vuepress-theme-reco',
           desc: 'A simple and beautiful vuepress Blog & Doc theme.',
           avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
           link: 'https://vuepress-theme-reco.recoluan.com'
         },
       ],
-      logo: '/logo.png',
+      // logo: '/logo.png',
       // 搜索设置
       search: true,
       searchMaxSuggestions: 10,
@@ -91,7 +62,7 @@ module.exports = {
       // 最后更新时间
       lastUpdated: 'Last Updated',
       // 作者
-      author: 'cyi1113',
+      author: '11月',
       // 作者头像
       authorAvatar: '/avatar.jpeg',
       // 备案号
@@ -118,6 +89,34 @@ module.exports = {
       //   placeholder:'填写邮箱，收到回复会发送邮件提醒'
       // }
     },
+     plugins: [
+        [
+            "@vuepress-reco/vuepress-plugin-bgm-player",
+            {
+                audios: [
+                    // 网络文件示例
+                    {
+                      name: '강남역 4번 출구',
+                      artist: 'Plastic / Fallin` Dild',
+                      url: 'https://assets.smallsunnyfox.com/music/2.mp3',
+                      cover: 'https://assets.smallsunnyfox.com/music/2.jpg'
+                    },
+                    {
+                      name: '用胳膊当枕头',
+                      artist: '최낙타',
+                      url: 'https://assets.smallsunnyfox.com/music/3.mp3',
+                      cover: 'https://assets.smallsunnyfox.com/music/3.jpg'
+                    },
+                    {
+                      name: '能够成家吗',
+                      artist: '咖啡少年',
+                      url: 'https://assets.smallsunnyfox.com/music/1.mp3',
+                      cover: 'https://assets.smallsunnyfox.com/music/1.jpg'
+                    }
+                  ]
+              }
+        ]
+    ],
     markdown: {
       lineNumbers: false
     }
