@@ -89,33 +89,35 @@ module.exports = {
       //   placeholder:'填写邮箱，收到回复会发送邮件提醒'
       // }
     },
-     plugins: [
-        [
-            "@vuepress-reco/vuepress-plugin-bgm-player",
+    plugins: [
+      [
+        "@vuepress-reco/vuepress-plugin-bgm-player",
+        {
+          audios: [
+            // 网络文件示例
             {
-                audios: [
-                    // 网络文件示例
-                    {
-                      name: '강남역 4번 출구',
-                      artist: 'Plastic / Fallin` Dild',
-                      url: 'https://assets.smallsunnyfox.com/music/2.mp3',
-                      cover: 'https://assets.smallsunnyfox.com/music/2.jpg'
-                    },
-                    {
-                      name: '用胳膊当枕头',
-                      artist: '최낙타',
-                      url: 'https://assets.smallsunnyfox.com/music/3.mp3',
-                      cover: 'https://assets.smallsunnyfox.com/music/3.jpg'
-                    },
-                    {
-                      name: '能够成家吗',
-                      artist: '咖啡少年',
-                      url: 'https://assets.smallsunnyfox.com/music/1.mp3',
-                      cover: 'https://assets.smallsunnyfox.com/music/1.jpg'
-                    }
-                  ]
-              }
-        ]
+              name: '강남역 4번 출구',
+              artist: 'Plastic / Fallin` Dild',
+              url: 'https://assets.smallsunnyfox.com/music/2.mp3',
+              cover: 'https://assets.smallsunnyfox.com/music/2.jpg'
+            },
+            {
+              name: '用胳膊当枕头',
+              artist: '최낙타',
+              url: 'https://assets.smallsunnyfox.com/music/3.mp3',
+              cover: 'https://assets.smallsunnyfox.com/music/3.jpg'
+            },
+            {
+              name: '能够成家吗',
+              artist: '咖啡少年',
+              url: 'https://assets.smallsunnyfox.com/music/1.mp3',
+              cover: 'https://assets.smallsunnyfox.com/music/1.jpg'
+            }
+          ]
+        }
+      ],
+      "vuepress-plugin-boxx",
+      "flowchart",
     ],
     markdown: {
       lineNumbers: false
