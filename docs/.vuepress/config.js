@@ -25,6 +25,11 @@ module.exports = {
         //   // ]
         // }
       ],
+      // keyPage: {
+      //   keys: ['7fac061bf481c205ae7b649c9174177f'],
+      //   color: '#42b983', // 登录页动画球的颜色
+      //   lineColor: '#42b983' // 登录页动画线的颜色
+      // },
      // sidebarDepth:2,
      sidebar: 'auto',
       type: 'blog',
