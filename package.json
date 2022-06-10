@@ -13,6 +13,8 @@
     "watchpack": "^1.6.1"
   },
   "dependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
     "vuepress-theme-reco": "^1.4.6"
   }
 }
