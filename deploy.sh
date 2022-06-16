@@ -8,7 +8,7 @@ cd docs/.vuepress/dist # 进入生成的文件夹
 # echo 'blog.zerodegree.top' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=https://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@github.com/CYi1113/Blog.git
+  githubUrl=git@github.com:CYi1113/Blog.git
 else
   msg='来自github action的自动部署'
   githubUrl=https://CYi1113:${GITHUB_TOKEN}@github.com/CYi1113/Blog.git
